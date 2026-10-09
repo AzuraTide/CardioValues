@@ -1,0 +1,37 @@
+# Delphi build output
+/Win32/
+/Win64/
+*.dcu
+*.exe
+*.dll
+*.bpl
+*.dcp
+*.map
+*.rsm
+*.tds
+*.drc
+
+# Local IDE settings and caches
+*.dproj.local
+*.groupproj.local
+*.identcache
+*.dsk
+*.stat
+*.tvsconfig
+
+# IDE history, recovery and backup files
+__history/
+__recovery/
+*.~*
+*.bak
+
+# Local cardio data and SQLite working files
+/cardio.db
+/cardio.db-journal
+/cardio.db-wal
+/cardio.db-shm
+*.sqbpro
+
+# Windows metadata
+Thumbs.db
+Desktop.ini
