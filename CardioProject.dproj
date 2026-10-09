@@ -1,4 +1,4 @@
-﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
         <ProjectGuid>{1833733A-CA32-46BB-AE09-A8354EA474FA}</ProjectGuid>
         <ProjectVersion>20.1</ProjectVersion>
@@ -123,10 +123,12 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="CardioType.pas">
+        <DCCReference Include="CardioMainForm.pas">
             <Form>Cardio</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="CardioTypes.pas"/>
+        <DCCReference Include="CardioRepository.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

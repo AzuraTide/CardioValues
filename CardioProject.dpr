@@ -2,7 +2,9 @@ program CardioProject;
 
 uses
   Vcl.Forms,
-  CardioType in 'CardioType.pas' {Cardio};
+  CardioMainForm in 'CardioMainForm.pas' {Cardio},
+  CardioTypes in 'CardioTypes.pas',
+  CardioRepository in 'CardioRepository.pas';
 
 {$R *.res}
 
